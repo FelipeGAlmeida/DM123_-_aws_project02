@@ -10,7 +10,7 @@ O código é uma aplicação Java (API RESTful), que foi configurada para operar
 
 ## Funcionamento
 
-O projeto está preparado para consumir as mensagens do serviço SNS do projeto [DM123 - aws_project01](), tanto a fila de produtos, quanto a de faturas. Essas mensagens consumidas são tratadas e enviadas ao serviço de banco de dados não relacional (NoSQL) DynamoDB, onde são armazenados cada uma em suas respectivas tabelas (ou na tabela de produtos, ou na de faturas). É possivel também consultar os eventos ocorridos com chamadas de API.
+O projeto está preparado para consumir as mensagens do serviço SNS do projeto [DM123 - aws_project01](https://github.com/FelipeGAlmeida/DM123_-_aws_project01), tanto a fila de produtos, quanto a de faturas. Essas mensagens consumidas são tratadas e enviadas ao serviço de banco de dados não relacional (NoSQL) DynamoDB, onde são armazenados cada uma em suas respectivas tabelas (ou na tabela de produtos, ou na de faturas). É possivel também consultar os eventos ocorridos com chamadas de API.
 
 ## Chamadas de API
 
